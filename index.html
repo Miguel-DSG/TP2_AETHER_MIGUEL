@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+<header>
+    <h1>Aether</h1>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#inscription">Inscription</a></li>
+            <li><a href="#tableau">Caractéristiques des Dieux</a></li>
+            <li><a href="#articles">Description des Dieux</a></li>
+            <li><a href="#galerie">Galerie des Dieux</a></li>
+            <li><a href="#footer">Informations</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<section id="accueil">
+    <div class="accueil-container">
+        <h2>Bienvenue sur Aether, rejoignez Le Club de Mythologie</h2>
+        <p>Travail Pratique 2</p>
+        <p>Miguel Da Silva-Gresseau</p>
+        <p>582-1W1 – Mise en page Web</p>
+        <p>Techniques d’intégration multimédia</p>
+        <p>Collège de Maisonneuve</p>
+        <p>Automne 2025</p>
+    </div>
+</section>
+
+
+
+<section id="inscription">
+    <h2>Inscription</h2>
+    <form>
+        <label>Nom :
+            <input type="text" name="nom" required>
+        </label>
+        <label>Prénom :
+            <input type="text" name="prenom" required>
+        </label>
+        <label>Email :
+            <input type="email" name="email" required>
+        </label>
+        <label>Mot de passe :
+            <input type="password" name="password" required>
+        </label>
+        <label>Date de naissance :
+            <input type="date" name="date" required>
+        </label>
+
+        <p>Sexe :</p>
+
+        <label>
+        <input type="radio" name="sexe" value="H">
+        Homme
+        </label>
+
+        <label>
+        <input type="radio" name="sexe" value="F">
+         Femme
+        </label>
+
+        
+        <label>Choisissez votre mythologie :
+            <select name="interets">
+                <option value="grecque">Grecque</option>
+                <option value="nordique">Nordique</option>
+                <option value="egyptienne">Egyptienne</option>
+            </select>
+        </label>
+        <div>
+            <button type="submit">Envoyer</button>
+            <button type="reset">Réinitialiser</button>
+        </div>
+    </form>
+</section>
+
+
+
+
+<section id="tableau">
+    <h2>Caractéristiques des Dieux</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Mythologie</th>
+                <th>Pouvoirs</th>
+                <th>Symboles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Zeus</td><td>Grecque</td><td>Roi des Dieux</td><td>Foudre</td></tr>
+            <tr><td>Anubis</td><td>Egyptienne</td><td>Guide des morts</td><td>Sépulture</td></tr>
+            <tr><td>Hades</td><td>Grecque</td><td>Roi des enfers</td><td>Cerbère</td></tr>
+            <tr><td>Loki</td><td>Nordique</td><td>Farceur / Magie</td><td>Serpent</td></tr>
+            <tr><td>Odin</td><td>Nordique</td><td>Sagesse / Guerre</td><td>Lance / Corbeaux</td></tr>
+            <tr><td>Poseidon</td><td>Grecque</td><td>Mer / Tempêtes</td><td>Trident</td></tr>
+            <tr><td>Ra</td><td>Egyptienne</td><td>Dieu du soleil</td><td>Soleil</td></tr>
+            <tr><td>Thor</td><td>Nordique</td><td>Tonnerre</td><td>Mjölnir</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4">Mythologies</td></tr>
+        </tfoot>
+    </table>
+</section>
+
+
+
+
+<section id="articles">
+    <h2>Description des Dieux</h2>
+    <div class="articles-container">
+        <article>
+            <img src="images/Zeus.jpg" alt="Zeus">
+            <h3>Zeus</h3>
+            <p>Dieu gecque du ciel, de la foudre et roi des Dieux, représenté sous la forme d'un vieillard avec une barbe blanche.</p>
+        </article>
+        <article>
+            <img src="images/anubis.jpg" alt="Anubis">
+            <h3>Anubis</h3>
+            <p>Dieu égyptien des morts et des embaumements, souvent représenté avec une tête de chacal.</p>
+        </article>
+        <article>
+            <img src="images/hades.webp" alt="Hadès">
+            <h3>Hades</h3>
+            <p>Roi des enfers dans la mythologie grecque, gardien des âmes des défunts.</p>
+        </article>
+        <article>
+            <img src="images/loki.jpg" alt="Loki">
+            <h3>Loki</h3>
+            <p>Dieu nordique du chaos et des ruses, maître des transformations et des tromperies.</p>
+        </article>
+        <article>
+            <img src="images/odin.jpg" alt="Odin">
+            <h3>Odin</h3>
+            <p>Dieu nordique de la sagesse et de la guerre, père de nombreux dieux et guide des guerriers.</p>
+        </article>
+        <article>
+            <img src="images/poseidon.jpg" alt="Poséidon">
+            <h3>Poséidon</h3>
+            <p>Dieu grec des mers, des tempêtes et des chevaux, porteur du trident redoutable.</p>
+        </article>
+        <article>
+            <img src="images/ra.webp" alt="Ra">
+            <h3>Ra</h3>
+            <p>Dieu égyptien du soleil, créateur de la vie et souverain des cieux.</p>
+        </article>
+        <article>
+            <img src="images/thor.webp" alt="Thor">
+            <h3>Thor</h3>
+            <p>Dieu nordique du tonnerre, armé de son marteau Mjölnir, protecteur des hommes et des dieux.</p>
+        </article>
+    </div>
+</section>
+
+
+
+
+<section id="galerie">
+    <h2>Galerie des Dieux</h2>
+    <div class="galerie-container">
+        <img src="images/Zeus.jpg" alt="Anubis">
+        <img src="images/anubis.jpg" alt="Anubis">
+        <img src="images/hades.webp" alt="Hadès">
+        <img src="images/loki.jpg" alt="Loki">
+        <img src="images/odin.jpg" alt="Odin">
+        <img src="images/poseidon.jpg" alt="Poséidon">
+        <img src="images/ra.webp" alt="Ra">
+        <img src="images/thor.webp" alt="Thor">
+        
+    </div>
+</section>
+
+
+
+
+<footer id="footer">
+    <p>Collège de Maisonneuve – Département TIM</p>
+    <p>
+        <a href="#">Accueil</a>
+    </p>
+    <p>
+        <img src="images/facebook.png" alt="Facebook">
+        <img src="images/twitter.png" alt="Twitter">
+        <img src="images/insta.jpg" alt="Instagram">
+    </p>
+</footer>
+
+</body>
+</html>
